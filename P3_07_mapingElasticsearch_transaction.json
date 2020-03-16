@@ -1,0 +1,36 @@
+curl -X PUT "localhost:9200/transaction?pretty" -H 'Content-Type: application/json' -d'
+{
+    "mappings" : {
+      "properties" : {
+        "op" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "date" : {
+          "type" : "date",
+          "format": "yyyy/MM/dd HH:mm:ss"
+        },
+        "hash" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "transaction_total_amount" : {
+          "type" : "double"
+        },
+        "transaction_total_amount_euro" : {
+          "type" : "double"
+        }
+      }
+    }
+}
+'

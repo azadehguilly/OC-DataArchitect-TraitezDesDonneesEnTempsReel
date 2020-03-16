@@ -1,0 +1,26 @@
+curl -X PUT "localhost:9200/cours?pretty" -H 'Content-Type: application/json' -d'
+{
+    "mappings" : {
+      "properties" : {
+        "op" : {
+          "type" : "text",
+          "fields" : {
+            "keyword" : {
+              "type" : "keyword",
+              "ignore_above" : 256
+            }
+          }
+        },
+        "date" : {
+          "type" : "date"
+        },
+        "cours_bitcoin" : {
+            "type" : "double"
+          },
+          "id" : {
+            "type" : "integer"
+          }
+      }
+    }
+}
+'
