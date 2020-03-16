@@ -19,12 +19,13 @@ Faire un projet avec l'eco système de bitcoin
 
 **P3_01_kibana.pptx :** Tableau de bord, resultat de projet 
 **P3_02_schémaarchitecture.pptx :** Dossier d'architecture
-**P3_03_ProducerKafkaPython_TransactionBlock.py:** Producer kafka qui consome une API de transaction et de block de bitcoin, ecrit en python
-**P3_04_ProducerKafkaPython_cours.py :** Producer kafka qui consome une API de cours de bitcoin, ecrit en python
-**P3_05_DevStormJava_bitcoinJava.zip :** Code source de la partie Storm en java
-**P3_06_mapingElasticsearch_transaction.json :** Mapping de création d'index "transaction" d'elasticsearch
-**P3_07_mapingElasticsearch_block.json :** Mapping de création d'index "block" d'elasticsearch
-**P3_08_mapingElasticsearch_cours.json :** Mapping de création d'index "cours" d'elasticsearch
+**P3_03_README.md:** README.md
+**P3_04_ProducerKafkaPython_TransactionBlock.py:** Producer kafka qui consome une API de transaction et de block de bitcoin, ecrit en python
+**P3_05_ProducerKafkaPython_cours.py :** Producer kafka qui consome une API de cours de bitcoin, ecrit en python
+**P3_06_DevStormJava_bitcoinJava.zip :** Code source de la partie Storm en java
+**P3_07_mapingElasticsearch_transaction.json :** Mapping de création d'index "transaction" d'elasticsearch
+**P3_08_mapingElasticsearch_block.json :** Mapping de création d'index "block" d'elasticsearch
+**P3_09_mapingElasticsearch_cours.json :** Mapping de création d'index "cours" d'elasticsearch
 
 
 ## note et usage
